@@ -22,19 +22,19 @@ print out a histogram of calories
 ## Part 2: Number guessing
 In `part2.py`, I have provided the code for guessing a number between 1 and 100 using the three techniques we have discussed and coded up ourselves, with one function for each of the three techniques. Eacn function takes the number to be guessed as an argument and then returns the number of guesses required to guess that number correctly using of the three techniques:
 
-* start guessing at 1 and go up to 100 until you guess the right number
-* guess random numbers, never guessing the same number twice, until you guess the right number
-* binary search
+* start guessing at 1 and go up to 100 until you guess the right number (**sequential**)
+* guess random numbers, never guessing the same number twice, until you guess the right number (**random**)
+* binary search (**binary**)
 
-You will write a function, `simulateguessing(technique)` whose argumment, `technique` is a string that is either "ordered", "random", or "binarysearch". This function will have a loop that generates a randon number between 1 and 100 and then calls the guessing function corresponding to the technique specified by the argument 1000 times. It will save each number it gets back from the guessing function into a list, so that at the end of the loop, it will have a list 1000 elements long containing the number of guesses required for each random number it generated. It will return that list.
+You will write a function, `simulateguessing(technique)` whose argumment, `technique` is a string that is either "sequential", "random", or "binary". This function will have a loop that generates a randon number between 1 and 100 and then calls the guessing function corresponding to the technique specified by the argument 1000 times. It will save each number it gets back from the guessing function into a list, so that at the end of the loop, it will have a list 1000 elements long containing the number of guesses required for each random number it generated. It will return that list.
 
 Finally in your `main()` function, you will do the following:
 
-* Call `simulateguessing()` with each of the three possible values ("ordered", "random", or "binarysearch"), saving the results out to three separate lists. 
-* Using `numpy`, calculate the mean, min, max, and standard deviation for each list, and print it out.
+* Call `simulateguessing()` with each of the three possible values ("sequential", "random", or "binary"). Don't forget that these functions returns a list, which you need to save to a variable, of course!
+* Using `numpy`, calculate the mean, min, max, and standard deviation for the result of each call to `simulateguessing()`, and print it out.
 * Using `matplotlib`, create a plot with three subplots, where each subplot contains a histogram for one of the three lists you got back from `simluateguessing()`. 
 
 Here is some sample output, and the subplots that I got.
 
-plot the number of guesses it takes for each of the three guessing techniques, draw a line at the average
-
+<img src="output.png" width=500>
+<img src="plots.png" width=500>
