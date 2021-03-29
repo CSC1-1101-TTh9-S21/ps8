@@ -43,4 +43,4 @@ Finally in your `main()` function, you will do the following:
 Here is some sample output, and the subplots that I got.
 
 <img src="output.png" width=500>
-<img src="plots.png" width=500>
+<img src="plots.png" width=300>
