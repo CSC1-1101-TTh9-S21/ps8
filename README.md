@@ -57,4 +57,13 @@ Finally in your `main()` function, you will do the following:
 Here is some sample output, and the subplots that I got.
 
 <img src="img/output.png" width=500>
-<img src="img/plots.png" width=300>
+<img src="img/plots.png" width=600>
+
+---
+
+## What to submit
+
+Zip up the directory, including all the original components and your completed `part1.py` and `part2.py` programs. Submit this `.zip` file to Canvas.
+
+### Due Tuesday, April 6, 2021, at 11:59pm EST
+
