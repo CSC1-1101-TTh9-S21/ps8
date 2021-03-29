@@ -19,11 +19,24 @@ As always, you will submit to Canvas **a single .zip file**. Detailed instructio
 * Pandas
 
 ## Part 1: Cereal data
-Open `part1.py`. The comments in this file will tell you what you need to do using the libraries NumPy, Pandas, and Matplotlib. Here is what my output looks like, along with the plots I created.
+Open `part1.py`. The comments in this file will tell you what you need to do using the libraries NumPy, Pandas, and Matplotlib. 
+
+The dataset you'll be using is in the file called `cereal.csv`. You can read more about it [here](https://www.kaggle.com/crawford/80-cereals).
+
+Helpful hints:
+
+* See the sample code from Tuesday's lecture for commented examples showing how to do most or all of these things. 
+* Also, please look at the links I have provided in the readings for this week.
+* Try doing everything on the IDLE shell at first so you don't have to keep loading the file. Then once you have figured it out, paste the commands into your `part1.py` file.
+
+
+Here is what my output looks like, along with the plots I created.
 
 <img src="part1output.png" width=500>
 <img src="part1plot1.png" width=300>
 <img src="part1plot2.png" width=300>
+<img src="part1plot3.png" width=300>
+
 
 
 ## Part 2: Number guessing
