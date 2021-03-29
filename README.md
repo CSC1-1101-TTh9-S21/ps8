@@ -32,10 +32,10 @@ Helpful hints:
 
 Here is what my output looks like, along with the plots I created.
 
-<img src="part1output.png" width=500>
-<img src="part1plot1.png" width=300>
-<img src="part1plot2.png" width=300>
-<img src="part1plot3.png" width=300>
+<img src="img/part1output.png" width=500>
+<img src="img/part1plot1.png" width=300>
+<img src="img/part1plot2.png" width=300>
+<img src="img/part1plot3.png" width=300>
 
 
 
@@ -56,5 +56,5 @@ Finally in your `main()` function, you will do the following:
 
 Here is some sample output, and the subplots that I got.
 
-<img src="output.png" width=500>
-<img src="plots.png" width=300>
+<img src="img/output.png" width=500>
+<img src="img/plots.png" width=300>
