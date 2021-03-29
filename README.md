@@ -12,6 +12,12 @@ As always, you will submit to Canvas **a single .zip file**. Detailed instructio
 
 **Honor pledge**: And, as always, in every program, the first four lines (comments) should be your honor pledge.
 
+**Libraries**: Before gettings started make sure you have the following libraries installed:
+
+* numpy
+* matplotlib
+* pandas
+
 ## Part 1: Cereal data
 read in data using csv and save all of the numeric values into a numpy array
 use numpy to find cereals whose protein content > something
@@ -20,18 +26,18 @@ print out a histogram of calories
 
 
 ## Part 2: Number guessing
-In `part2.py`, I have provided the code for guessing a number between 1 and 100 using the three techniques we have discussed and coded up ourselves, with one function for each of the three techniques. Eacn function takes the number to be guessed as an argument and then returns the number of guesses required to guess that number correctly using the specified technique. The three techniques are:
+In `part2.py`, **I have provided the code** for guessing a number between 1 and 100 using the three techniques we have discussed and coded up ourselves, with one function for each of the three techniques. Eacn function takes the number to be guessed as an argument and then returns the number of guesses required to guess that number correctly using the specified technique. The three techniques are:
 
 * start guessing at 1 and add 1 until you guess the right number (**sequential**)
 * guess random numbers, never guessing the same number twice, until you guess the right number (**random**)
 * binary search (**binary**)
 
-You will write a function, `simulateguessing(technique)` whose argumment, `technique` is a string that is either "sequential", "random", or "binary". This function will have a loop that generates a random number between 1 and 100 and then calls the guessing function corresponding to the technique specified by the argument 1000 times. It will save each number it gets back from the guessing function into a list, so that at the end of the loop, it will have a list 1000 elements long containing the number of guesses required for each random number it generated. It will return that list.
+You will write a function, `simulateguessing(technique)` whose argumment, `technique` is a string that is either "sequential", "random", or "binary". This function will have a loop that generates a random number between 1 and 100 and then calls the guessing function corresponding to the technique specified by the argument 1000 times. It will save each number it gets back from the guessing function into a list, so that at the end of the loop, it will have a list that is 1000 elements long containing the number of guesses required for each random number it generated. It will return that list.
 
 Finally in your `main()` function, you will do the following:
 
 * Call `simulateguessing()` with each of the three possible values ("sequential", "random", or "binary"). Don't forget that these functions returns a list, which you need to save to a variable, of course!
-* Using `numpy`, calculate the mean, min, max, and standard deviation for the result of each call to `simulateguessing()`, and print it out.
+* Using `numpy`, calculate the mean, min, max, and standard deviation for the result of each call to `simulateguessing()`, and print them out as shown in the sample output, below. ([See the readings about numpy here for some help](https://github.com/CSC1-1101-TTh9-S21/numpy-reading).)
 * Using `matplotlib`, create a plot with three subplots, where each subplot contains a histogram for one of the three lists you got back from `simluateguessing()`. 
 
 Here is some sample output, and the subplots that I got.
