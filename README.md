@@ -14,15 +14,16 @@ As always, you will submit to Canvas **a single .zip file**. Detailed instructio
 
 **Libraries**: Before gettings started make sure you have the following libraries installed:
 
-* numpy
-* matplotlib
-* pandas
+* NumPy
+* Matplotlib
+* Pandas
 
 ## Part 1: Cereal data
-read in data using csv and save all of the numeric values into a numpy array
-use numpy to find cereals whose protein content > something
-convert to percentages and find top 5 most sugary
-print out a histogram of calories
+Open `part1.py`. The comments in this file will tell you what you need to do using the libraries NumPy, Pandas, and Matplotlib. Here is what my output looks like, along with the plots I created.
+
+<img src="part1output.png" width=500>
+<img src="part1plot1.png" width=300>
+<img src="part1plot2.png" width=300>
 
 
 ## Part 2: Number guessing
